@@ -1,0 +1,19 @@
+table {
+    border-collapse: collapse; /* 테이블 셀의 경계선을 합칩니다. */
+    width: 100%; /* 부모 요소에 꽉 차도록 설정합니다. */
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2; /* 짝수 번째 행의 배경색을 지정합니다. */
+  }
+  
+  td, th {
+    border: 1px solid #ddd; /* 셀의 경계선을 지정합니다. */
+    padding: 8px; /* 셀의 안쪽 여백을 지정합니다. */
+    text-align: left; /* 셀 안의 텍스트 정렬 방식을 지정합니다. */
+  }
+  
+  th {
+    background-color: #ddd; /* 헤더 셀의 배경색을 지정합니다. */
+  }
+  
